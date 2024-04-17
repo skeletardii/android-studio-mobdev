@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidProjectCollection</string>
+    <string name="layoutExercise">Layout Exercise</string>
+    <string name="Close">Close</string>
+    <string name="Toast">Toast</string>
+    <string name="ChangeBG">Change BG</string>
+    <string name="ChangeButtonBG">Change Button BG</string>
+    <string name="Disappear">Disappear</string>
+    <string name="Return">Return</string>
+</resources>
