@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mItemChange"
+        android:title="Change Button...">
+        <menu>
+            <item
+                android:id="@+id/mItemColor"
+                android:title="Change Button Color" />
+            <item
+                android:id="@+id/mItemNumber"
+                android:title="Change Number" />
+            <item
+                android:id="@+id/mItemSize"
+                android:title="Change Size" />
+            <item
+                android:id="@+id/mItemPosition"
+                android:title="Change Position" />
+            <item
+                android:id="@+id/mItemRotate"
+                android:title="Change Rotation" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mItemReset"
+        android:title="Reset Button" />
+    <item
+        android:id="@+id/mItemExit"
+        android:title="Exit Activity" />
+</menu>

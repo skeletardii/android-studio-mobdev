@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
         btnOpenPassingIntents = findViewById(R.id.btnOpenPassingIntents);
         btnOpenPassingIntents.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View view) {startActivity(new Intent(MainActivity.this, PassingIntentsExercise.class));}});
 
+        btnOpenMenus = findViewById(R.id.btnOpenMenus);
+        btnOpenMenus.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View view) {startActivity(new Intent(MainActivity.this, MenuExercise.class));}});
+
     }
 
 }
